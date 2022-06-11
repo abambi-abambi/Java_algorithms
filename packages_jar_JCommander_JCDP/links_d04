@@ -1,0 +1,109 @@
+General:
+
+https://translated.turbopages.org/proxy_u/en-ru.ru.13da1885-62763153-b636b16f-74722d776562/https/stackoverflow.com/questions/33645950/import-package-with-no-name-java
+Импорт пакета без имени Java
+"Если при написании определения класса оператор package опущен, имя класса помещается в пакет по умолчанию, который не имеет имени."
+
+https://translated.turbopages.org/proxy_u/en-ru.ru.13da1885-62763153-b636b16f-74722d776562/https/docs.oracle.com/javase/specs/jls/se7/html/jls-7.html#jls-7.3
+Еще немного про неназванные пакеты
+
+https://translated.turbopages.org/proxy_u/en-ru.ru.6c2d0aaf-62762ccf-dc7125fd-74722d776562/https/www.quora.com/Which-package-is-available-by-default-in-java
+Какой пакет доступен по умолчанию в java.?
+Про пакеты "java.lang", "именованный пакет", "неназванный пакет" (NONAME package)
+
+https://translated.turbopages.org/proxy_u/en-ru.ru.128071af-6276293c-e96ba890-74722d776562/https/www.quora.com/What-does-namespace-mean-in-Java
+(https://www.quora.com/What-does-namespace-mean-in-Java)
+Пространство имен (в C#, C++, XML) vs пакеты (в Java)
+
+https://habr.com/ru/post/434968/
+Кое-что о пространстве имён
++ "тайна директивы "package"" у Java в сравнении с namespace у php и некоторых других
+
+https://habr.com/ru/company/lanit/blog/323008/
+Как с помощью maven работать с библиотеками, которых в maven нет
+
+https://java-online.ru/maven-dependency.xhtml
+Maven зависимости, dependency
+"Если версия модуля определяется как SNAPSHOT (версия 2.0.0-SNAPSHOT), то maven будет либо пересобирать его каждый раз заново вместо того, чтобы подгружать из локального репозитория, либо каждый раз загружать из public-репозитория"
+<version>1.0.0-SNAPSHOT</version>
+
+https://pro-java.ru/java-dlya-nachinayushhix/import-paketov-v-java/?
+Про пакеты и import
+"Оператор import служит только для удобства программирования и не является обязательным с формальной точки зрения для создания завершенной программы нa java."
+
+-----
+
+ex00
+
+https://www.examclouds.com/ru/java/java-core-russian/classpath-russian?
+Создание и запуск первого Java-приложения Classpath 
+
+https://java-blog.ru/osnovy/kompilyatsiya-java-koda-iz-komandnoy-stroki
+Компиляция java кода из командной строки
+
+https://youtu.be/grs1vTiz08Y
+Видео-лекция: JavaPiscine day04 (часть 1)
+
+https://www.youtube.com/watch?v=kVOf51h8qoU
+Видео-лекция: JavaPiscine day04 (java, javac, jar) (часть 2)
+
+https://maven.apache.org/archetype/maven-archetype-plugin/usage.html
+Project creation: Maven в консоли, последовательно настраиваем проект
+
+https://tproger.ru/articles/maven-short-intro/?
+Генерация проектов с помощью Maven: одной командой из командной строки
+
+https://docs.oracle.com/javase/8/docs/api/java/awt/image/BufferedImage.html
+Методы класса BufferedImage
+
+https://javarush.ru/quests/lectures/questsyntaxpro.level08.lecture02
+Принцип подключения классов, из которых мы используем методы (тема: Пакеты)
+
+https://www.bestprog.net/ru/2018/09/20/packages-using-packages-in-java-the-import-and-package-directives-compiled-modules-java-intermediate-class-files-project-structure-using-standard-java-libraries_ru/
+Использование package import, и про классы, составляющие библиотеки
+(Много информации, прямо справочник)
+
+https://javatutor.net/articles/loading-and-saving-images-using-java-io-library
+Загрузка и сохранение изображений при помощи библиотеки ввода/вывода изображений (Image I/O Library)
+
+black_dot (16777216):
+0b1000000000000000000000000
+0x1000000
+
+0x00FFFFFF (16777215):
+0b0111111111111111111111111
+
+*****
+
+ex01
+
+Вывести все флаги для команды jar: jar -
+Разархивировать .jar: jar -xf jar_archive_name.jar
+Просмотреть содержимое архива: jar -tf jar_archive_name.jar
+
+https://ru.stackoverflow.com/questions/681377/%D0%A7%D1%82%D0%BE-%D1%82%D0%B0%D0%BA%D0%BE%D0%B5-jar-%D1%84%D0%B0%D0%B9%D0%BB-%D0%B8-%D0%B7%D0%B0%D1%87%D0%B5%D0%BC-%D0%BE%D0%BD-%D0%BD%D1%83%D0%B6%D0%B5%D0%BD
+Что такое jar файл и зачем он нужен?
+
+Путь к файлу можно указать так: My_class_name.class.getResource("path_to_file/file_name.bmp")
+
+README.txt
+Вместо пунктов 4-5 можно: java -classpath ./target edu.school21.printer.app.Program . 0
+Вместо пунктов 4-5 можно: cd target && java edu.school21.printer.app.Program . 0
+
+*****
+
+ex02
+
+https://translated.turbopages.org/proxy_u/en-ru.ru.33e8975d-62779923-ec054284-74722d776562/https/www.baeldung.com/jcommander-parsing-command-line-parameters
+Простое объяснение шаг за шагом про JCommander
+
+https://www.diogonunes.com/blog/jcolor-java-color-messages-terminal/
+Как работать с diogonunes.ColoredPrinter
+
+Дополнительно:
+https://jcommander.org/
+Про JCommander из первоисточника
+
+------
+https://translated.turbopages.org/proxy_u/en-ru.ru.2288d0ea-62757b45-3da4cb71-74722d776562/https/stackoverflow.com/questions/2903859/prevent-intellij-from-adding-iml-files
+IDEA добавляет .iml-файлы!!!!!!!
